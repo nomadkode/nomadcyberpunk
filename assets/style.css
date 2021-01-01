@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "cyberpunk";
+  src: url('fonts/Cyberpunk-Regular.ttf') format('truetype');
+}
+
+h1 {
+  font-family: "cyberpunk", arial;
+}
