@@ -1,4 +1,9 @@
 /* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
 .navbar-brand {
   font-family: Audiowide, cursive;
   font-size: 25px;
@@ -9,14 +14,30 @@
   background-image: url(img/hero.jpg);
   background-blend-mode: darken;
   background-size: cover;
-  height: 700px;
+  height: 550px;
   text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  position: absolute;
+  bottom: 0;
 }
 
 .jumbotron .display-4 {
   color: #e847ae;
   margin-top: 20%;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   margin-bottom: 5%;
@@ -54,5 +75,10 @@
 
   .jumbotron {
     margin-top: -75px;
+    height: 700px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 3.5rem;
   }
 }
