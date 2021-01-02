@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "cyberpunk";
-  src: url(fonts/Cyberpunk-Regular.ttf);
-}
-
-body {
-  font-family: cyberpunk;
-}
