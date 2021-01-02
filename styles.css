@@ -1,5 +1,5 @@
 body {
-  background-color: #1F0035;
+  background-color: black;
 }
 
 /* Navbar */
@@ -16,7 +16,6 @@ body {
 /* Jumbotron */
 .jumbotron {
   background-image: url(img/hero.jpg);
-  background-blend-mode: darken;
   background-size: cover;
   height: 550px;
   text-align: center;
@@ -40,7 +39,7 @@ body {
 
 .jumbotron .display-4 {
   color: #e847ae;
-  margin-top: 15%;
+  margin-top: 17%;
   font-size: 2rem;
   font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -55,15 +54,24 @@ body {
 .info-panel {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  margin-top: -140px;
-  background-color: black;
+  background-color: #261a7a;
   color: #e847ae;
+}
+
+.info-panel img {
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Utility */
 .button {
   text-transform: uppercase;
   border-radius: 40px;
+  background-color: #261a7a;
+}
+
+.button:hover {
+  background-color: #3b27ba;
 }
 
 /* Desktop Version */
