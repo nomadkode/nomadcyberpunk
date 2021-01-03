@@ -1,16 +1,18 @@
 body {
-  background-color: black;
+  background-color: #261a7a;
 }
 
 /* Navbar */
 .navbar {
   position: relative;
   z-index: 1;
+  color: #e847ae !important;
 }
 
 .navbar-brand {
   font-family: Audiowide, cursive;
   font-size: 25px;
+  color: #e847ae;
 }
 
 /* Jumbotron */
@@ -51,27 +53,74 @@ body {
 }
 
 /* Panel */
+.skill {
+  text-align: center;
+  margin-top: -20px;
+}
+
 .info-panel {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
-  background-color: #261a7a;
+  border-radius: 10px;
+  background-color: #3b27ba;
   color: #e847ae;
+  padding: 30px;
 }
 
 .info-panel img {
   width: 4rem;
   height: 4rem;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
+
+.info-panel h5 {
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Portfolio */
+.my-portfolio {
+  text-align: center;
+  margin-top: 50px;
+  color: #e847ae;
+}
+
+.portfolio {
+  margin-top: 70px;
+  color: #e847ae;
+  text-align: center;
+}
+
+.portfolio h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.portfolio p {
+  margin: 30px 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #e847ae;
+}
+
 
 /* Utility */
 .button {
   text-transform: uppercase;
   border-radius: 40px;
-  background-color: #261a7a;
+  background-color: #1ABEBE;
+  color: #e847ae;
 }
 
 .button:hover {
-  background-color: #3b27ba;
+  background-color: #13ca91;
 }
 
 /* Scrollbar RGB */
@@ -122,5 +171,9 @@ body::-webkit-scrollbar-thumb {
 
   .jumbotron .display-4 {
     font-size: 3rem;
+  }
+
+  .portfolio {
+    text-align: left;
   }
 }
